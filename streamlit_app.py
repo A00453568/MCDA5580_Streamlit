@@ -17,4 +17,4 @@ var_4 = st.slider(inputs[3], max_value=10)
 
 prediction = clf.predict([[var_1, var_2, var_3, var_4]])
 
-st.write(prediction[0])
+st.write(labels[prediction[0]])
